@@ -1,0 +1,100 @@
+:root{
+    --size-400: 1.5rem;
+    --size-500: 3rem;
+    --size-600: 6rem;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding);
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.padding-block-400 {
+    padding-block: var(--size-400);
+}
+
+.padding-block-500 {
+    padding-block: var(--size-500);
+}
+
+.padding-block-600 {
+    padding-block: var(--size-600);
+}
+
+nav{
+    background-color: #2C2C2C;
+}
+
+.navbar-brand{
+    font-family: permanent-marker, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-item{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content{
+    margin-top: 40px;
+}
+
+.title-content{
+    margin-top: 60px;
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 15%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+hr{
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)translateY(100%);
+    width: 340px;
+    height: 4px;
+    border-radius: 25px;
+    border-bottom: 3px solid #707070;
+}
+
+.card-text{
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-link{
+    color: chocolate;
+}
+
+footer{
+    background-color: #1B1B1B;
+}
+
+.kkn{
+    max-width: 140px;
+    max-height: 60px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+footer p{
+    padding-top: 10px;
+    font-size: 1em;
+}
+
+/* WEB VERSION */
+@media (min-width: 992px) { 
+    .nav-link{
+        text-transform: uppercase;
+    }
+}
